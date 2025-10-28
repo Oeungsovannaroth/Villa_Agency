@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>Villa Agency</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-villa-agency.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <!--
+
+TemplateMo 591 villa agency
+
+https://templatemo.com/tm-591-villa-agency
+
+-->
+    <style>
+        .properties-box .item img {
+            width: 100%;
+            height: 250px;
+            /* adjust as needed */
+            object-fit: cover;
+            /* keeps aspect ratio and fills the area */
+            border-radius: 8px;
+            /* optional for rounded corners */
+        }
+        
+        .properties-box .item {
+            background-color: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease;
+        }
+        
+        .properties-box .item:hover {
+            transform: translateY(-20px);
+        }
+        
+        @media (max-width: 768px) {
+            .properties-box .item img {
+                height: 180px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ***** Preloader Start ***** -->
+    <div id="js-preloader" class="js-preloader">
+        <div class="preloader-inner">
+            <span class="dot"></span>
+            <div class="dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+
+    <div class="sub-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-8">
+                    <ul class="info">
+                        <li><i class="fa fa-envelope"></i> info@company.com</li>
+                        <li><i class="fa fa-map"></i> Sunny Isles Beach, FL 33160</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <ul class="social-links">
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="https://x.com/minthu" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="index.html" class="logo">
+                            <h1>Villa</h1>
+                        </a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="properties.html" class="active">Properties</a></li>
+                            <li><a href="property-details.html">Property Details</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="#"><i class="fa fa-calendar"></i> Schedule a visit</a></li>
+                        </ul>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <div class="page-heading header-text">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <span class="breadcrumb"><a href="/index.html">Home</a> / Properties</span>
+                    <h3>Properties</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section properties">
+        <div class="container">
+            <ul class="properties-filter">
+                <li>
+                    <a class="is_active" href="#!" data-filter="*">Show All</a>
+                </li>
+                <li>
+                    <a href="#!" data-filter=".adv">Apartment</a>
+                </li>
+                <li>
+                    <a href="#!" data-filter=".str">Villa House</a>
+                </li>
+                <li>
+                    <a href="#!" data-filter=".rac">Penthouse</a>
+                </li>
+            </ul>
+            <div class="row properties-box">
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 adv">
+                    <div class="item">
+                        <a href="property-details.html"><img src="assets/images/property-01.jpg" alt=""></a>
+                        <span class="category">Skyview Residences</span>
+                        <h6>$2.264.000</h6>
+                        <h4><a href="property-details.html">18 Old Street Miami, OR 97219</a></h4>
+                        <ul>
+                            <li>Bedrooms: <span>8</span></li>
+                            <li>Bathrooms: <span>8</span></li>
+                            <li>Area: <span>545m2</span></li>
+                            <li>Floor: <span>3</span></li>
+                            <li>Parking: <span>6 spots</span></li>
+                        </ul>
+                        <div class="main-button">
+                            <a href="property-details.html">Schedule a visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 str">
+                    <div class="item">
+                        <a href="property-details.html"><img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/304243045.jpg?k=b511cde5869cc405b45388e1773f7d372b54ab753611452b7428eec82bbdd16f&o=&hp=1" alt=""></a>
+                        <span class="category">Villa Serenity</span>
+                        <h6>$1.180.000</h6>
+                        <h4><a href="property-details.html">54 New Street Kampot, OR 27001</a></h4>
+                        <ul>
+                            <li>Bedrooms: <span>8</span></li>
+                            <li>Bathrooms: <span>8</span></li>
+                            <li>Area: <span>545m²</span></li>
+                            <li>Floor: <span>3</span></li>
+                            <li>Parking: <span>6 spots</span></li>
+                        </ul>
+                        <div class="main-button">
+                            <a href="property-details.html">Schedule a visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 adv">
+                    <div class="item">
+                        <a href="property-details.html"><img src="assets/images/property-03.jpg" alt=""></a>
+                        <span class="category">Luxury Villa</span>
+                        <h6>$1.460.000</h6>
+                        <h4><a href="property-details.html">26 Mid Street Portland, OR 38540</a></h4>
+                        <ul>
+                            <li>Bedrooms: <span>5</span></li>
+                            <li>Bathrooms: <span>4</span></li>
+                            <li>Area: <span>225m2</span></li>
+                            <li>Floor: <span>3</span></li>
+                            <li>Parking: <span>10 spots</span></li>
+                        </ul>
+                        <div class="main-button">
+                            <a href="property-details.html">Schedule a visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 str">
+                    <div class="item">
+                        <a href="property-details.html"><img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/647246121.jpg?k=b0d5ef5d0fe653ba57e05caa7415797f5450e990506718eff7479ab42baf1846&o=&hp=1" alt=""></a>
+                        <span class="category">Crystal Haven Villa</span>
+                        <h6>$584.500</h6>
+                        <h4><a href="property-details.html">12 Hope Street Kampot, OR 12650</a></h4>
+                        <ul>
+                            <li>Bedrooms: <span>7</span></li>
+                            <li>Bathrooms: <span>7</span></li>
+                            <li>Area: <span>520m²</span></li>
+                            <li>Floor: <span>3</span></li>
+                            <li>Parking: <span>5 spots</span></li>
+                        </ul>
+                        <div class="main-button">
+                            <a href="property-details.html">Schedule a visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 str">
+                    <div class="item">
+                        <a href="property-details.html"><img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/585873062.jpg?k=d6d1268880242b16435dcf15d5bdd708ac02c91976dd5aae2581e8a220e95e55&o=&hp=1" alt=""></a>
+                        <span class="category">Sunset Mirage</span>
+                        <h6>$925.600</h6>
+                        <h4><a href="property-details.html">34 Hope Street Portland, OR 42680</a></h4>
+                        <ul>
+                            <li>Bedrooms: <span>6</span></li>
+                            <li>Bathrooms: <span>6</span></li>
+                            <li>Area: <span>500m²</span></li>
+                            <li>Floor: <span>2</span></li>
+                            <li>Parking: <span>4 spots</span></li>
+                        </ul>
+                        <div class="main-button">
+                            <a href="property-details.html">Schedule a visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac">
+                    <div class="item">
+                        <a href="property-details.html"><img src="assets/images/property-06.jpg" alt=""></a>
+                        <span class="category">Modern Condo</span>
+                        <h6>$450.000</h6>
+                        <h4><a href="property-details.html">22 Hope Street Portland, OR 16540</a></h4>
+                        <ul>
+                            <li>Bedrooms: <span>3</span></li>
+                            <li>Bathrooms: <span>2</span></li>
+                            <li>Area: <span>165m2</span></li>
+                            <li>Floor: <span>26th</span></li>
+                            <li>Parking: <span>3 cars</span></li>
+                        </ul>
+                        <div class="main-button">
+                            <a href="property-details.html">Schedule a visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac">
+                    <div class="item">
+                        <a href="property-details.html"><img src="assets/images/property-03.jpg" alt=""></a>
+                        <span class="category">Luxury Villa</span>
+                        <h6>$980.000</h6>
+                        <h4><a href="property-details.html">14 Mid Street Miami, OR 36450</a></h4>
+                        <ul>
+                            <li>Bedrooms: <span>8</span></li>
+                            <li>Bathrooms: <span>8</span></li>
+                            <li>Area: <span>550m2</span></li>
+                            <li>Floor: <span>3</span></li>
+                            <li>Parking: <span>12 spots</span></li>
+                        </ul>
+                        <div class="main-button">
+                            <a href="property-details.html">Schedule a visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac">
+                    <div class="item">
+                        <a href="property-details.html"><img src="assets/images/property-02.jpg" alt=""></a>
+                        <span class="category">Luxury Villa</span>
+                        <h6>$1.520.000</h6>
+                        <h4><a href="property-details.html">26 Old Street Miami, OR 12870</a></h4>
+                        <ul>
+                            <li>Bedrooms: <span>12</span></li>
+                            <li>Bathrooms: <span>15</span></li>
+                            <li>Area: <span>380m2</span></li>
+                            <li>Floor: <span>3</span></li>
+                            <li>Parking: <span>14 spots</span></li>
+                        </ul>
+                        <div class="main-button">
+                            <a href="property-details.html">Schedule a visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 adv">
+                    <div class="item">
+                        <a href="property-details.html"><img src="assets/images/property-01.jpg" alt=""></a>
+                        <span class="category">Luxury Villa</span>
+                        <h6>$3.145.000</h6>
+                        <h4><a href="property-details.html">34 New Street Miami, OR 24650</a></h4>
+                        <ul>
+                            <li>Bedrooms: <span>10</span></li>
+                            <li>Bathrooms: <span>12</span></li>
+                            <li>Area: <span>860m2</span></li>
+                            <li>Floor: <span>3</span></li>
+                            <li>Parking: <span>10 spots</span></li>
+                        </ul>
+                        <div class="main-button">
+                            <a href="property-details.html">Schedule a visit</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add str -->
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac str">
+                    <div class="item">
+                        <a href="property-details.html"><img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/531543546.jpg?k=f67a5bd2d56430c0d923f8b83a677f6d5d615fba8c00064fe20bb77e4acdc238&o=&hp=1" alt=""></a>
+                        <span class="category">Azure Horizon Villa</span>
+                        <h6>$3.145.000</h6>
+                        <h4><a href="property-details.html">34 New Street Kampot, OR 24650</a></h4>
+                        <ul>
+                            <li>Bedrooms: <span>7</span></li>
+                            <li>Bathrooms: <span>7</span></li>
+                            <li>Area: <span>530m²</span></li>
+                            <li>Floor: <span>3</span></li>
+                            <li>Parking: <span>5 spots</span></li>
+                        </ul>
+                        <div class="main-button">
+                            <a href="property-details.html">Schedule a visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac str">
+                    <div class="item">
+                        <a href="property-details.html"><img src="https://images.trvl-media.com/lodging/1000000/800000/796700/796663/f95d664b.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill" alt=""></a>
+                        <span class="category">Golden Palms Retreat</span>
+                        <h6>$4.145.000</h6>
+                        <h4><a href="property-details.html">34 New Street Kampot, OR 24650</a></h4>
+                        <ul>
+                            <li>Bedrooms: <span>8</span></li>
+                            <li>Bathrooms: <span>8</span></li>
+                            <li>Area: <span>545m²</span></li>
+                            <li>Floor: <span>3</span></li>
+                            <li>Parking: <span>6 spots</span></li>
+                        </ul>
+                        <div class="main-button">
+                            <a href="property-details.html">Schedule a visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac str">
+                    <div class="item">
+                        <a href="property-details.html"><img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/477522393.jpg?k=b4dec5901c752802293772be150b560992692c280c0a791d1f084a926a5778ba&o=&hp=1" alt=""></a>
+                        <span class="category">Whispering Pines Villa</span>
+                        <h6>$8.215.000</h6>
+                        <h4><a href="property-details.html">34 New Street Kep, OR 24650</a></h4>
+                        <ul>
+                            <li>Bedrooms: <span>6</span></li>
+                            <li>Bathrooms: <span>6</span></li>
+                            <li>Area: <span>500m²</span></li>
+                            <li>Floor: <span>2</span></li>
+                            <li>Parking: <span>4 spots</span></li>
+                        </ul>
+                        <div class="main-button">
+                            <a href="property-details.html">Schedule a visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac str">
+                    <div class="item">
+                        <a href="property-details.html"><img src="https://images.trvl-media.com/lodging/115000000/114840000/114832100/114832084/72bff568.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill" alt=""></a>
+                        <span class="category">Starlight Sanctuary</span>
+                        <h6>$3.145.000</h6>
+                        <h4><a href="property-details.html">34 New Street Kampot, OR 24650</a></h4>
+                        <ul>
+                            <li>Bedrooms: <span>7</span></li>
+                            <li>Bathrooms: <span>7</span></li>
+                            <li>Area: <span>525m²</span></li>
+                            <li>Floor: <span>3</span></li>
+                            <li>Parking: <span>5 spots</span></li>
+                        </ul>
+                        <div class="main-button">
+                            <a href="property-details.html">Schedule a visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac str">
+                    <div class="item">
+                        <a href="property-details.html"><img src="https://a0.muscache.com/im/pictures/miso/Hosting-54164799/original/ca2cdb1e-0959-4711-abea-546d00b72346.png?im_w=720" alt=""></a>
+                        <span class="category">Eden Crest Villa</span>
+                        <h6>$2.185.000</h6>
+                        <h4><a href="property-details.html">34 New Street Kampot, OR 24650</a></h4>
+                        <ul>
+                            <li>Bedrooms: <span>8</span></li>
+                            <li>Bathrooms: <span>8</span></li>
+                            <li>Area: <span>550m²</span></li>
+                            <li>Floor: <span>3</span></li>
+                            <li>Parking: <span>6 spots</span></li>
+                        </ul>
+                        <div class="main-button">
+                            <a href="property-details.html">Schedule a visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac str">
+                    <div class="item">
+                        <a href="property-details.html"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/9b/40/78/3-olivine-pearl-villas.jpg?w=500&h=400&s=1" alt=""></a>
+                        <span class="category">Pearl Lagoon Villa</span>
+                        <h6>$5.045.000</h6>
+                        <h4><a href="property-details.html">34 New Street Kampot, OR 24650</a></h4>
+                        <ul>
+                            <li>Bedrooms: <span>7</span></li>
+                            <li>Bathrooms: <span>7</span></li>
+                            <li>Area: <span>530m²</span></li>
+                            <li>Floor: <span>2</span></li>
+                            <li>Parking: <span>5 spots</span></li>
+                        </ul>
+                        <div class="main-button">
+                            <a href="property-details.html">Schedule a visit</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add adv -->
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac adv">
+                    <div class="item">
+                        <a href="property-details.html"><img src="assets/images/property-01.jpg" alt=""></a>
+                        <span class="category">Luxury Villa</span>
+                        <h6>$3.145.000</h6>
+                        <h4><a href="property-details.html">34 New Street Miami, OR 24650</a></h4>
+                        <ul>
+                            <li>Bedrooms: <span>10</span></li>
+                            <li>Bathrooms: <span>12</span></li>
+                            <li>Area: <span>860m2</span></li>
+                            <li>Floor: <span>3</span></li>
+                            <li>Parking: <span>10 spots</span></li>
+                        </ul>
+                        <div class="main-button">
+                            <a href="property-details.html">Schedule a visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac adv">
+                    <div class="item">
+                        <a href="property-details.html"><img src="assets/images/property-01.jpg" alt=""></a>
+                        <span class="category">Luxury Villa</span>
+                        <h6>$3.145.000</h6>
+                        <h4><a href="property-details.html">34 New Street Miami, OR 24650</a></h4>
+                        <ul>
+                            <li>Bedrooms: <span>10</span></li>
+                            <li>Bathrooms: <span>12</span></li>
+                            <li>Area: <span>860m2</span></li>
+                            <li>Floor: <span>3</span></li>
+                            <li>Parking: <span>10 spots</span></li>
+                        </ul>
+                        <div class="main-button">
+                            <a href="property-details.html">Schedule a visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac adv">
+                    <div class="item">
+                        <a href="property-details.html"><img src="assets/images/property-01.jpg" alt=""></a>
+                        <span class="category">Luxury Villa</span>
+                        <h6>$3.145.000</h6>
+                        <h4><a href="property-details.html">34 New Street Miami, OR 24650</a></h4>
+                        <ul>
+                            <li>Bedrooms: <span>10</span></li>
+                            <li>Bathrooms: <span>12</span></li>
+                            <li>Area: <span>860m2</span></li>
+                            <li>Floor: <span>3</span></li>
+                            <li>Parking: <span>10 spots</span></li>
+                        </ul>
+                        <div class="main-button">
+                            <a href="property-details.html">Schedule a visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac adv">
+                    <div class="item">
+                        <a href="property-details.html"><img src="assets/images/property-01.jpg" alt=""></a>
+                        <span class="category">Luxury Villa</span>
+                        <h6>$3.145.000</h6>
+                        <h4><a href="property-details.html">34 New Street Miami, OR 24650</a></h4>
+                        <ul>
+                            <li>Bedrooms: <span>10</span></li>
+                            <li>Bathrooms: <span>12</span></li>
+                            <li>Area: <span>860m2</span></li>
+                            <li>Floor: <span>3</span></li>
+                            <li>Parking: <span>10 spots</span></li>
+                        </ul>
+                        <div class="main-button">
+                            <a href="property-details.html">Schedule a visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac adv">
+                    <div class="item">
+                        <a href="property-details.html"><img src="assets/images/property-01.jpg" alt=""></a>
+                        <span class="category">Luxury Villa</span>
+                        <h6>$3.145.000</h6>
+                        <h4><a href="property-details.html">34 New Street Miami, OR 24650</a></h4>
+                        <ul>
+                            <li>Bedrooms: <span>10</span></li>
+                            <li>Bathrooms: <span>12</span></li>
+                            <li>Area: <span>860m2</span></li>
+                            <li>Floor: <span>3</span></li>
+                            <li>Parking: <span>10 spots</span></li>
+                        </ul>
+                        <div class="main-button">
+                            <a href="property-details.html">Schedule a visit</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add rac -->
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac rac">
+                    <div class="item">
+                        <a href="property-details.html"><img src="assets/images/property-01.jpg" alt=""></a>
+                        <span class="category">Luxury Villa</span>
+                        <h6>$3.145.000</h6>
+                        <h4><a href="property-details.html">34 New Street Miami, OR 24650</a></h4>
+                        <ul>
+                            <li>Bedrooms: <span>10</span></li>
+                            <li>Bathrooms: <span>12</span></li>
+                            <li>Area: <span>860m2</span></li>
+                            <li>Floor: <span>3</span></li>
+                            <li>Parking: <span>10 spots</span></li>
+                        </ul>
+                        <div class="main-button">
+                            <a href="property-details.html">Schedule a visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac rac">
+                    <div class="item">
+                        <a href="property-details.html"><img src="assets/images/property-01.jpg" alt=""></a>
+                        <span class="category">Luxury Villa</span>
+                        <h6>$3.145.000</h6>
+                        <h4><a href="property-details.html">34 New Street Miami, OR 24650</a></h4>
+                        <ul>
+                            <li>Bedrooms: <span>10</span></li>
+                            <li>Bathrooms: <span>12</span></li>
+                            <li>Area: <span>860m2</span></li>
+                            <li>Floor: <span>3</span></li>
+                            <li>Parking: <span>10 spots</span></li>
+                        </ul>
+                        <div class="main-button">
+                            <a href="property-details.html">Schedule a visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac rac">
+                    <div class="item">
+                        <a href="property-details.html"><img src="assets/images/property-01.jpg" alt=""></a>
+                        <span class="category">Luxury Villa</span>
+                        <h6>$3.145.000</h6>
+                        <h4><a href="property-details.html">34 New Street Miami, OR 24650</a></h4>
+                        <ul>
+                            <li>Bedrooms: <span>10</span></li>
+                            <li>Bathrooms: <span>12</span></li>
+                            <li>Area: <span>860m2</span></li>
+                            <li>Floor: <span>3</span></li>
+                            <li>Parking: <span>10 spots</span></li>
+                        </ul>
+                        <div class="main-button">
+                            <a href="property-details.html">Schedule a visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac rac">
+                    <div class="item">
+                        <a href="property-details.html"><img src="assets/images/property-01.jpg" alt=""></a>
+                        <span class="category">Luxury Villa</span>
+                        <h6>$3.145.000</h6>
+                        <h4><a href="property-details.html">34 New Street Miami, OR 24650</a></h4>
+                        <ul>
+                            <li>Bedrooms: <span>10</span></li>
+                            <li>Bathrooms: <span>12</span></li>
+                            <li>Area: <span>860m2</span></li>
+                            <li>Floor: <span>3</span></li>
+                            <li>Parking: <span>10 spots</span></li>
+                        </ul>
+                        <div class="main-button">
+                            <a href="property-details.html">Schedule a visit</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 rac rac">
+                    <div class="item">
+                        <a href="property-details.html"><img src="assets/images/property-01.jpg" alt=""></a>
+                        <span class="category">Luxury Villa</span>
+                        <h6>$3.145.000</h6>
+                        <h4><a href="property-details.html">34 New Street Miami, OR 24650</a></h4>
+                        <ul>
+                            <li>Bedrooms: <span>10</span></li>
+                            <li>Bathrooms: <span>12</span></li>
+                            <li>Area: <span>860m2</span></li>
+                            <li>Floor: <span>3</span></li>
+                            <li>Parking: <span>10 spots</span></li>
+                        </ul>
+                        <div class="main-button">
+                            <a href="property-details.html">Schedule a visit</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="pagination">
+                        <li><a class="is_active" href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">>></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="col-lg-12">
+                <p>Copyright © 2048 Villa Agency Co., Ltd. All rights reserved. Design</p>
+                <!-- <a rel="nofollow" href="https://templatemo.com" target="_blank">TemplateMo</a> -->
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/counter.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>
